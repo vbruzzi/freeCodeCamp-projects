@@ -1,0 +1,22 @@
+body {
+  margin: 30px 10px 30px 10px;
+  font-family: "Trebuchet MS";
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+h1, h2, p {
+  color: #303030;
+}
+
+#main {
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: 0;
+  align-items: center;
+}
