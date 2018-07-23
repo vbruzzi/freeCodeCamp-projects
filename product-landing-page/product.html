@@ -16,73 +16,73 @@
         <a href="#contato" class="nav-link">Contato</a>
       </nav>
     </div>
+    <div id="main">
+      <div id="empresa">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qWz0ihBgQS0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="quality">
+          <i class="fas fa-fire"></i>
+          <h1>Feitos sob encomenda</h1>
+          <p>
+          Fazemos pães de queijo frescos e feito sob encomenda para garantir o melhor sabor.
+          </p>
+        </div>
+        <div class="quality">
+          <i class="fas fa-truck"></i>
+          <h1>Entregamos em seu domicílio</h1>
+          <p>Efetuamos a entrega no mesmo dia que estiver feito.</p>
+        </div>
+        <div class="quality">
+          <i class="fas fa-dollar-sign"></i>
+          <h1>Cai em conta</h1>
+          <p>Fazemos nossos produtos de modo que saíem por um preço que não pesa no seu bolso sem pesar na qualidade.</p>
+        </div>
+      </div>
 
-    <div id="empresa">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qWz0ihBgQS0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <div class="quality">
-        <i class="fas fa-fire"></i>
-        <h1>Feitos sob encomenda</h1>
-        <p>
-        Fazemos pães de queijo frescos e feito sob encomenda para garantir o melhor sabor.
-        </p>
+      <div id="precos">
+        <div class="packages">
+          <h2>Pacote Básico</h2>
+          <h1>R$30</h1>
+          <ul>
+            <li>Uma dúzia de pães de queijo</li>
+            <li>Entrega gratuita até 5km</li>
+          </ul>
+        </div>
+        <div class="packages">
+          <h2>Pacote Intermediário</h2>
+          <h1>R$50</h1>
+          <ul>
+            <li>Duas dúzias de pães de queijo</li>
+            <li>Entrega gratuita até 10km</li>
+          </ul>
+        </div>
+        <div class="packages">
+          <h2>Pacote Queijão</h2>
+          <h1>R$100</h1>
+          <ul>
+            <li><span>Quatro</span> dúzias de pães de queijo</li>
+            <li>Entrega gratuita dentro da cidade</li>
+          </ul>
+        </div>
       </div>
-      <div class="quality">
-        <i class="fas fa-truck"></i>
-        <h1>Entregamos em seu domicílio</h1>
-        <p>Efetuamos a entrega no mesmo dia que estiver feito.</p>
-      </div>
-      <div class="quality">
-        <i class="fas fa-dollar-sign"></i>
-        <h1>Cai em conta</h1>
-        <p>Fazemos nossos produtos de modo que saíem por um preço que não pesa no seu bolso sem pesar na qualidade.</p>
-      </div>
-    </div>
 
-    <div id="precos">
-      <div class="packages">
-        <h2>Pacote Básico</h2>
-        <h1>R$30</h1>
-        <ul>
-          <li>Uma dúzia de pães de queijo</li>
-          <li>Entrega gratuita até 5km</li>
-        </ul>
+      <div id="contato">
+        <h1>Faça um orçamento!</h1>
+        <form name="formulario">
+          <label for="email">
+            <input type="email" placeholder="Coloque o seu email..."  required/>
+          </label>
+          <p>
+            Qual pacote você gostaria?
+          </p>
+          <label for="package-type">
+            <input type="radio" name="tipodepacote" value="30" /> R$30
+            <input type="radio" name="tipodepacote" value="50" /> R$50
+            <input type="radio" name="tipodepacote" value="100" /> R$100
+          </label>
+          <textarea id="comentario" placeholder="Coloque qualquer comentário..."></textarea>
+          <input type="submit" value="Submit"/>
+        </form>
       </div>
-      <div class="packages">
-        <h2>Pacote Intermediário</h2>
-        <h1>R$50</h1>
-        <ul>
-          <li>Duas dúzias de pães de queijo</li>
-          <li>Entrega gratuita até 10km</li>
-        </ul>
-      </div>
-      <div class="packages">
-        <h2>Pacote Queijão</h2>
-        <h1>R$100</h1>
-        <ul>
-          <li><span>Quatro</span> dúzias de pães de queijo</li>
-          <li>Entrega gratuita dentro da cidade</li>
-        </ul>
-      </div>
-    </div>
-
-    <div id="contato">
-      <h1>Faça um orçamento!</h1>
-      <form name="formulario">
-        <label for="email">
-          <input type="email" placeholder="Coloque o seu email..."  required/>
-        </label>
-        <p>
-          Qual pacote você gostaria?
-        </p>
-        <label for="package-type">
-          <input type="radio" name="tipodepacote" value="30" /> R$30
-          <input type="radio" name="tipodepacote" value="50" /> R$50
-          <input type="radio" name="tipodepacote" value="100" /> R$100
-        </label>
-        <textarea id="comentario" placeholder="Coloque qualquer comentário..."></textarea>
-        <input type="submit" value="Submit"/>
-      </form>
-    </div>
-
+    </div>    
   </body>
 </html>
