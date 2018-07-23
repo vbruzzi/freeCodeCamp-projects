@@ -1,3 +1,6 @@
+/* TAG STYLING BEGINS HERE */
+
+
 body {
   font-family: "Trebuchet MS";
   background-color: #f7f7f7;
@@ -11,6 +14,29 @@ iframe {
   width: 640px;
   height: 360px;
 }
+
+div {
+  position: static;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+button, textarea, input {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 2px solid #ffe400;
+  border-radius: 3px;
+}
+
+
+
+/* ID STYLING BEGINS HERE */
+
+
 
 #header {
   display: flex;
@@ -55,8 +81,89 @@ iframe {
   align-items: center;
 }
 
-#empresa {
+#video {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#quality {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 640px;
+}
+
+#precos {
+  display: flex;
+  text-align: center;
+}
+
+#precos li {
+  list-style: none;
+  text-align: left;
+  margin-right: 10px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+
+
+
+/* CLASS STYLING BEGINS HERE */
+
+
+
+
+.item {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 20vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+  width: 80vw;
+  margin-top: 15px;
+}
+
+.packages {
+  border: 1px solid #b7b7b7;
+  border-radius: 3px;
+  margin: 5px;
+  width: 250px;
+  height: 220px;
+}
+
+.packages h2 {
+  background-color: #c9c9c9;
+  margin-top: 0;
+  padding: 8px 0 8px 0;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 520px) {
+  #header {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+  }
 }
