@@ -1,0 +1,185 @@
+/* TAG STYLING BEGINS HERE */
+
+
+body {
+  font-family: "Trebuchet MS";
+  background-color: #f7f7f7;
+}
+
+i {
+  font-size: 30px;
+  color: #fca600;
+  margin-right: 15px;
+}
+
+div {
+  position: static;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h5 {
+  margin-bottom: 15px ;
+  font-size: 30px !important;
+}
+
+
+/* ID STYLING BEGINS HERE */
+
+
+#logo, #links {
+  margin-right: auto;
+  margin-left: auto;
+}
+#header-img {
+  height: 60px;
+  width: 250px;
+}
+
+#nav-bar {
+  margin-top: 25px;
+}
+
+#nav-bar a {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  padding: 15px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+#nav-bar a:hover {
+  background-color: #b2b2b2;
+}
+
+#packages {
+  max-width: 1000px;
+}
+
+/* CLASS STYLING BEGINS HERE */
+
+
+.jumbotron {
+  background-image: url("jumbotronpic.6ecee49e.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-top: 20px;
+}
+
+.row {
+  margin: auto !important;
+  width: 100%;
+}
+
+.card-title {
+  background-color: #c9c9c9;
+  height: 70px;
+  font-size: 25px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-header, .card-body {
+  text-align: center;
+}
+
+.card-text {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.qualities {
+  max-width: 900px !important;
+}
+
+.col-4 {
+  padding: 0 !important;
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (min-width: 521px) {
+
+  #header-img-small {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  #nav-bar a {
+    padding: 5px;
+    font-size: 17px !important;
+  }
+  #prices {
+    display: flex;
+    flex-direction: column;
+    margin-right:
+  }
+}
+
+@media screen and (max-width: 520px) {
+
+  body {
+    width: 100%
+  }
+  #header-img{
+    display: none !important;
+  }
+  #header-img-small{
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  #header a {
+    font-size: 10px;
+    width: 100px;
+  }
+
+  #nav-bar a:hover {
+    background-color: transparent;
+}
+
+  #company {
+    min-width: 320px;
+    align-items: center;
+  }
+
+  #prices {
+    display: flex;
+    flex-direction: column;
+    margin-right:
+  }
+}

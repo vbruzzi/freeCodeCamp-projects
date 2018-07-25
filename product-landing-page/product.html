@@ -2,106 +2,129 @@
 
 <html>
   <head>
-    <title>Delbe's Brazilian Cheese Balls  </title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <title>Delbe's Brazilian Cheese Balls</title>
+    <!-- ICON STYLES -->
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- BOOTSTRAP STUFF -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   </head>
   <body>
 
+    <!-- HEADER -->
     <div id="header">
-      <img id="header-img" src="media/logo.png"/>
-      <img id="header-img-small" src="media/mobile-logo.png" />
-      <nav id="nav-bar">
-        <a href="#empresa" class="nav-link">A empresa</a>
-        <a href="#precos" class="nav-link">Preços</a>
-        <a href="#contato" class="nav-link">Contato</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div id="logo">
+          <a class="navbar-brand" href="#">
+            <img id="header-img" src="media/logo.png" />
+            <img id="header-img-small" src="media/mobile-logo.png" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div id="links">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#company">What we do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prices">Prices</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
-    <div id="main">
-      <div id="empresa">
-        <div id="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qWz0ihBgQS0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div id="quality">
-          <div class="item">
-            <div class="icon">
-              <i class="fas fa-fire"></i>
-            </div>
-            <div class="content">
-              <h1>Feitos sob encomenda</h1>
-              <p>
-              Fazemos pães de queijo frescos e feito sob encomenda para garantir o melhor sabor.
-              </p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="icon">
-              <i class="fas fa-truck"></i>
-            </div>
-            <div class="content">
-              <h1>Entregamos em seu domicílio</h1>
-              <p>Efetuamos a entrega no mesmo dia que estiver feito.</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="icon">
-              <i class="fas fa-dollar-sign"></i>
-            </div>
-            <div class="content">
-              <h1>Cai em conta</h1>
-              <p>Fazemos nossos produtos de modo que saíem por um preço que não pesa no seu bolso sem pesar na qualidade.</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="precos">
-        <div class="packages">
-          <h2>Pacote Básico</h2>
-          <h1>R$30</h1>
-          <ul>
-            <li>Uma dúzia de pães</li>
-            <li>Entrega gratuita até 5km</li>
-          </ul>
-          <button>Compre já!</button>
-        </div>
-        <div class="packages">
-          <h2>Queijo lover</h2>
-          <h1>R$50</h1>
-          <ul>
-            <li>Duas dúzias de pães</li>
-            <li>Entrega gratuita até 10km</li>
-          </ul>
-          <button>Compre já!</button>
-        </div>
-        <div class="packages">
-          <h2>Verdadeiro mineiro</h2>
-          <h1>R$100</h1>
-          <ul>
-            <li><span>Quatro</span> dúzias de pães</li>
-            <li>Entrega gratuita dentro da cidade</li>
-          </ul>
-          <button>Compre já!</button>
-        </div>
-      </div>
-
-      <div id="contato">
-        <h1>Faça um orçamento!</h1>
-        <form name="formulario">
-          <label for="email">
-            <input type="email" placeholder="Coloque o seu email..."  required/>
-          </label>
-          <p>
-            Qual pacote você gostaria?
+    <div id="content">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container display-6 col-md-6 col-md-push-4">
+          <h1>Fresh cheese balls</h1>
+          <p class="lead">
+            Baked with love.
           </p>
-          <label for="package-type">
-            <input type="radio" name="tipodepacote" value="30" /> R$30
-            <input type="radio" name="tipodepacote" value="50" /> R$50
-            <input type="radio" name="tipodepacote" value="100" /> R$100
-          </label><br />
-          <textarea id="comentario" placeholder="Coloque qualquer comentário..."></textarea><br />
-          <input type="submit" value="Submit"/>
-        </form>
+        </div>
+      </div>
+      <div class="row qualities">
+        <div class="col-4 ">
+          <h5><i class="fas fa-fire"></i>Made by order</h5>
+          <p>
+            We have the best prices so that it doesn't weigh on your pocket or the quality!
+          </p>
+        </div>
+        <div class="col-4">
+          <h5><i class="fas fa-dollar-sign"></i>Best Prices</h5>
+          <p>
+            We have the best prices so that it doesn't weigh on your pocket or the quality!
+          </p>
+        </div>
+        <div class="col-4">
+          <h5><i class="fas fa-truck"></i></i>Delivery</h5>
+          <p>
+            We will deliver to your household the same day they're made.
+          </p>
+        </div>
+      </div>
+      <div id="packages" class="row card-deck">
+        <div class="card col-4">
+          <div class="card-header">Basic Package</div>
+          <div class="card-body">
+            <p class="card-text">R$30</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              One dozen cheese balls
+            </li>
+            <li class="list-group-item">
+              Free shippnig within 5km
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary">Compre já!</a>
+        </div>
+        <div class="card col-4">
+          <div class="card-header">Queijo Lover</div>
+          <div class="card-body">
+            <p class="card-text">R$50</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Two dozen cheese balls
+            </li>
+            <li class="list-group-item">
+              Free shipping within 10km
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary">Compre já!</a>
+        </div>
+        <div class="card col-4">
+          <div class="card-header">Real Mineiro</div>
+          <div class="card-body">
+            <p class="card-text">R$100</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Four dozen cheese balls
+            </li>
+            <li class="list-group-item">
+              Free shipping within the city
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary">Compre já!</a>
+        </div>
       </div>
     </div>
   </body>
