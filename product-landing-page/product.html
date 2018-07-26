@@ -36,13 +36,13 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#company">What we do</a>
+                <a class="nav-link" href="#quality">What we do</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#prices">Prices</a>
+                <a class="nav-link" href="#packages">Prices</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
+                  <a class="nav-link" href="#quote">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -59,28 +59,28 @@
           </p>
         </div>
       </div>
-      <div class="row qualities">
-        <div class="col-4 ">
-          <h5><i class="fas fa-fire"></i>Made by order</h5>
+      <div class="card-deck row qualities" id="quality">
+        <div class="card col-4 border-light">
+          <h5 class="card-header bg-transparent"><i class="fas fa-fire"></i>Fresh!</h5>
           <p>
             We have the best prices so that it doesn't weigh on your pocket or the quality!
           </p>
         </div>
-        <div class="col-4">
-          <h5><i class="fas fa-dollar-sign"></i>Best Prices</h5>
+        <div class="card col-4 border-light">
+          <h5 class="card-header bg-transparent"><i class="fas fa-dollar-sign"></i>Best Prices</h5>
           <p>
             We have the best prices so that it doesn't weigh on your pocket or the quality!
           </p>
         </div>
-        <div class="col-4">
-          <h5><i class="fas fa-truck"></i></i>Delivery</h5>
+        <div class="card col-4 border-light">
+          <h5 class="card-header bg-transparent"><i class="fas fa-truck"></i></i>Delivery</h5>
           <p>
             We will deliver to your household the same day they're made.
           </p>
         </div>
       </div>
       <div id="packages" class="row card-deck">
-        <div class="card col-4">
+        <div class="card col-4 border-warning">
           <div class="card-header">Basic Package</div>
           <div class="card-body">
             <p class="card-text">R$30</p>
@@ -93,9 +93,9 @@
               Free shippnig within 5km
             </li>
           </ul>
-          <a href="#" class="btn btn-primary">Compre já!</a>
+          <a href="#" class="btn btn-warning">Compre já!</a>
         </div>
-        <div class="card col-4">
+        <div class="card col-4 border-warning">
           <div class="card-header">Queijo Lover</div>
           <div class="card-body">
             <p class="card-text">R$50</p>
@@ -108,9 +108,9 @@
               Free shipping within 10km
             </li>
           </ul>
-          <a href="#" class="btn btn-primary">Compre já!</a>
+          <a href="#" class="btn btn-warning">Compre já!</a>
         </div>
-        <div class="card col-4">
+        <div class="card col-4 border-warning">
           <div class="card-header">Real Mineiro</div>
           <div class="card-body">
             <p class="card-text">R$100</p>
@@ -123,9 +123,35 @@
               Free shipping within the city
             </li>
           </ul>
-          <a href="#" class="btn btn-primary">Compre já!</a>
+          <a href="#" class="btn btn-warning">Compre já!</a>
         </div>
       </div>
+      <form id="quote">
+        <h2>Get a quote!</h2>
+        <div class="form-group">
+          <label for="inputEmail leftAlign">Email Address:</label>
+          <input type="email" class="form-control border-warning" id="inputEmail" placeholder="Enter your email..." />
+        </div>
+        <h3>Which package would you like?</h3>
+        <fieldset class="form-group">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="option1" value="30"/>
+            <label class="form-check-label" for="option1">R$30</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="option2" value="50"/>
+            <label class="form-check-label" for="option2">R$50</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="option3" value="100"/>
+            <label class="form-check-label" for="option3">R$100</label>
+          </div>
+        </fieldset>
+        <div class="form-group leftAlign">
+          <label for="otherComments">Add any special requests: </label>
+            <textarea class="form-control border-warning" id="otherComments" rows="2"></textarea>
+        </div>
+      </form>
     </div>
   </body>
 </html>
