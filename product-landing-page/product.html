@@ -1,157 +1,210 @@
 <!doctype html>
-
 <html>
-  <head>
-    <title>Delbe's Brazilian Cheese Balls</title>
-    <!-- ICON STYLES -->
-    <link rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- STYLE -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Delbe's Brazilian Cheese Balls</title>
+        <meta name="description" content="The best cheese balls you will ever have!">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+              crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
 
-    <!-- BOOTSTRAP STUFF -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-  </head>
-  <body>
+    <body>
 
-    <!-- HEADER -->
-    <div id="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div id="logo">
-          <a class="navbar-brand" href="#">
-            <img id="header-img" src="media/logo.png" />
-            <img id="header-img-small" src="media/mobile-logo.png" />
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse"
-          data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div id="links">
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#quality">What we do</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#packages">Prices</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#quote">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+        <nav class="header navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="header-img" src="media/logo.png"/>
+                </a>
 
-    <div id="content">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container display-6 col-md-6 col-md-push-4">
-          <h1>Fresh cheese balls</h1>
-          <p class="lead">
-            Baked with love.
-          </p>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#price-table">PRICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#quote">CONTACT</a></li>
+                    </ul>
+
+                    <span class="navbar-text">
+                        <h3 class="header-phone">
+                            <small>We Deliver!</small>
+                            <i>Call <a href="tel:555-555-5555">780-852-9898</a></i>
+                        </h3>
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="content">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container display-6 col-md-6 col-md-push-4">
+                    <h1 class="jumbotext display-4">Fresh cheese balls</h1>
+                    <p class="lead">
+                        Here we strive for the highest quality of baked goods!
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="section highlights" id="about">
+                <h2 class="heading text-center">Get it anywhere anytime!</h2>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card">
+                                <h5 class="card-header text-warning text-center">Fresh!</h5>
+                                <div class="card-body text-justify">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card">
+                                <h5 class="card-header text-warning text-center">Best Prices</h5>
+                                <div class="card-body text-justify">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card">
+                                <h5 class="card-header text-warning text-center">Delivery</h5>
+                                <div class="card-body text-justify">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section price-table" id="price-table">
+                <h2 class="heading text-center">The more you buy the less you pay!</h2>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card border-warning text-center">
+                                <div class="card-header">Basic</div>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                        R$30
+                                    </h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            One dozen cheese balls
+                                        </li>
+                                        <li class="list-group-item">
+                                            Free shippnig within 5km
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-warning btn-lg btn-block">Buy now!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card border-warning text-center">
+                                <div class="card-header">Queijo Lover</div>
+                                <div class="card-body">
+                                    <h2 class="card-title">R$50</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            Two dozen cheese balls
+                                        </li>
+                                        <li class="list-group-item">
+                                            Free shipping within 10km
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-warning btn-lg btn-block">Buy now!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card border-warning text-center">
+                                <div class="card-header">Real Mineiro</div>
+                                <div class="card-body">
+                                    <h2 class="card-title">R$100</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            Four dozen cheese balls
+                                        </li>
+                                        <li class="list-group-item">
+                                            Free shipping within the city
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-warning btn-lg btn-block">Buy now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section quote-form">
+
+                <form id="quote">
+                    <h2 class="heading text-center">Contact Us!</h2>
+
+                    <div class="form-group">
+                        <label for="inputEmail" class="leftAlign">Email Address:</label>
+                        <input type="email" class="form-control border-warning" id="inputEmail" placeholder="Enter your email..."/>
+                    </div>
+
+                    <h3>Which package would you like?</h3>
+
+                    <fieldset class="form-group custom-control custom-radio">
+                      <div class="form-check form-check-inline radbutton">
+                        <input name="customRadioInline1" class="form-check-input custom-control-input" type="radio" id="option1" value="30"/>
+                        <label class="form-check-label custom-control-label" for="option1">R$30</label>
+                      </div>
+
+                      <div class="form-check form-check-inline radbutton">
+                        <input name="customRadioInline1" class="form-check-input custom-control-input" type="radio" id="option2" value="50"/>
+                        <label class="form-check-label custom-control-label" for="option2">R$50</label>
+                      </div>
+
+                      <div class="form-check form-check-inline radbutton">
+                        <input name="customRadioInline1" class="form-check-input custom-control-input" type="radio" id="option3" value="100"/>
+                        <label class="form-check-label custom-control-label" for="option3">R$100</label>
+                      </div>
+                    </fieldset>
+
+                    <div class="form-group leftAlign">
+                        <label for="otherComments">Add any special requests: </label>
+                        <textarea class="form-control border-warning" id="otherComments" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-warning">Get a Quote!</button>
+                </form>
+            </div>
+            <footer class="page-footer">
+              <div class="footer-copyright text-center py-3">
+                Made by Vitor Bruzzi
+              </div>
+
+            </footer>
         </div>
-      </div>
-      <div class="card-deck row qualities" id="quality">
-        <div class="card col-4 border-light">
-          <h5 class="card-header bg-transparent"><i class="fas fa-fire"></i>Fresh!</h5>
-          <p>
-            We have the best prices so that it doesn't weigh on your pocket or the quality!
-          </p>
-        </div>
-        <div class="card col-4 border-light">
-          <h5 class="card-header bg-transparent"><i class="fas fa-dollar-sign"></i>Best Prices</h5>
-          <p>
-            We have the best prices so that it doesn't weigh on your pocket or the quality!
-          </p>
-        </div>
-        <div class="card col-4 border-light">
-          <h5 class="card-header bg-transparent"><i class="fas fa-truck"></i></i>Delivery</h5>
-          <p>
-            We will deliver to your household the same day they're made.
-          </p>
-        </div>
-      </div>
-      <div id="packages" class="row card-deck">
-        <div class="card col-4 border-warning">
-          <div class="card-header">Basic Package</div>
-          <div class="card-body">
-            <p class="card-text">R$30</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              One dozen cheese balls
-            </li>
-            <li class="list-group-item">
-              Free shippnig within 5km
-            </li>
-          </ul>
-          <a href="#" class="btn btn-warning">Compre já!</a>
-        </div>
-        <div class="card col-4 border-warning">
-          <div class="card-header">Queijo Lover</div>
-          <div class="card-body">
-            <p class="card-text">R$50</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              Two dozen cheese balls
-            </li>
-            <li class="list-group-item">
-              Free shipping within 10km
-            </li>
-          </ul>
-          <a href="#" class="btn btn-warning">Compre já!</a>
-        </div>
-        <div class="card col-4 border-warning">
-          <div class="card-header">Real Mineiro</div>
-          <div class="card-body">
-            <p class="card-text">R$100</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              Four dozen cheese balls
-            </li>
-            <li class="list-group-item">
-              Free shipping within the city
-            </li>
-          </ul>
-          <a href="#" class="btn btn-warning">Compre já!</a>
-        </div>
-      </div>
-      <form id="quote">
-        <h2>Get a quote!</h2>
-        <div class="form-group">
-          <label for="inputEmail leftAlign">Email Address:</label>
-          <input type="email" class="form-control border-warning" id="inputEmail" placeholder="Enter your email..." />
-        </div>
-        <h3>Which package would you like?</h3>
-        <fieldset class="form-group">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="option1" value="30"/>
-            <label class="form-check-label" for="option1">R$30</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="option2" value="50"/>
-            <label class="form-check-label" for="option2">R$50</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="option3" value="100"/>
-            <label class="form-check-label" for="option3">R$100</label>
-          </div>
-        </fieldset>
-        <div class="form-group leftAlign">
-          <label for="otherComments">Add any special requests: </label>
-            <textarea class="form-control border-warning" id="otherComments" rows="2"></textarea>
-        </div>
-      </form>
-    </div>
-  </body>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    </body>
 </html>
